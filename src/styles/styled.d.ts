@@ -9,6 +9,7 @@ declare module 'styled-components' {
       lavenderSecondary: string,
       darkPrimary: string,
       borderColor: string,
+      white: string,
     }
   }
 }

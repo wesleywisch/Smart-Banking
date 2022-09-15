@@ -1,10 +1,11 @@
 export const colors = {
   colors: {
-    purplePrimary: 'hsl(243, 69, 59)',
-    accentPink: 'hsl(345, 88, 63)',
-    neutralLight: 'hsl(222, 100, 97)',
-    lavenderSecondary: 'hsl(237, 21, 52)',
-    darkPrimary: 'hsl(237, 56, 20)',
-    borderColor: 'hsl(260, 68, 83)',
+    purplePrimary: '#554DDE',
+    accentPink: '#F44E77',
+    neutralLight: '#F2F6FF',
+    lavenderSecondary: '#6A6D9E',
+    darkPrimary: '#16194F',
+    borderColor: '#CAB6F1',
+    white: '#fff',
   },
 }

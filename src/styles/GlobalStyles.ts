@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font: 400 1rem 'Roboto', sans-serif;
+    font: 400 1.2rem 'Roboto', sans-serif;
     background-color: ${props => props.theme.colors.neutralLight};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
