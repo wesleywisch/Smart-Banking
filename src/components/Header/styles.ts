@@ -12,7 +12,7 @@ export const HeaderContainer = styled.header`
 `;
 
 export const HeaderContent = styled.div`
-  padding: 0 10rem;
+  padding: 0 18rem;
 `;
 
 export const HeaderSection = styled.section`

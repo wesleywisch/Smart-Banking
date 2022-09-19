@@ -6,6 +6,7 @@ import { CardSection } from './components/CardSection';
 import { colors } from './styles/colors';
 import { GlobalStyle } from "./styles/GlobalStyles";
 import { OuterLayout } from './styles/layout';
+import { ChartSection } from './components/ChartSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
       <OuterLayout>
         <CardSection />
+        <ChartSection />
       </OuterLayout>
     </ThemeProvider>
   );

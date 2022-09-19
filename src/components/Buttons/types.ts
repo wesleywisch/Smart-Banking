@@ -5,3 +5,7 @@ export type ButtonPrimaryProps = {
 export type SecondaryButtonProps = {
   title: string;
 }
+
+export type AnimatedButtonProps = {
+  title: string;
+};

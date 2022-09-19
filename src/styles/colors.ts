@@ -5,7 +5,7 @@ export const colors = {
     neutralLight: '#F2F6FF',
     lavenderSecondary: '#6A6D9E',
     darkPrimary: '#16194F',
-    borderColor: '#CAB6F1',
+    borderColor: '#CAD6F1',
     white: '#fff',
   },
 }
