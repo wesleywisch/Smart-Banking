@@ -1,9 +1,12 @@
 import { SecondaryButton } from '../Buttons';
 import { Navigation } from '../Navigation';
 
+import ring1 from '../../assets/ring_orange.svg';
+import message1 from '../../assets/message_pink.svg';
+import message2 from '../../assets/message_blue.svg';
 import phone from '../../assets/phone.svg';
 
-import { HeaderContainer, HeaderContent, HeaderSection, LeftContent } from './styles';
+import { HeaderContainer, HeaderContent, HeaderSection, LeftContent, RightContent } from './styles';
 
 export function Header() {
   return (
@@ -23,9 +26,12 @@ export function Header() {
               <SecondaryButton title='Register now' />
             </div>
           </LeftContent>
-          <div className="right-content">
-            <img src={phone} alt="Phone" />
-          </div>
+          <RightContent className="right-content">
+            <img src={phone} alt="Phone" className='phone' />
+            <img src={ring1} alt="Anel" className='ring1' />
+            <img src={message1} alt="Mensagem" className='message1' />
+            <img src={message2} alt="Mensagem" className='message2' />
+          </RightContent>
         </HeaderSection>
       </HeaderContent>
     </HeaderContainer>

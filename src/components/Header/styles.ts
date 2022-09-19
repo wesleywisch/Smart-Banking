@@ -40,3 +40,33 @@ export const LeftContent = styled.div`
     }
   }
 `;
+
+export const RightContent = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  .phone {
+    width: 80%;
+  }
+
+  .ring1 {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    left: auto;
+  }
+
+  .message1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+  }
+
+  .message2 {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+  }
+`;
