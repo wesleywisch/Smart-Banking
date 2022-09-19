@@ -1,9 +1,11 @@
 import { ThemeProvider, DefaultTheme } from 'styled-components';
 
 import { Header } from './components/Header';
+import { CardSection } from './components/CardSection';
 
 import { colors } from './styles/colors';
 import { GlobalStyle } from "./styles/GlobalStyles";
+import { OuterLayout } from './styles/layout';
 
 function App() {
   return (
@@ -11,6 +13,10 @@ function App() {
       <GlobalStyle />
 
       <Header />
+
+      <OuterLayout>
+        <CardSection />
+      </OuterLayout>
     </ThemeProvider>
   );
 }
