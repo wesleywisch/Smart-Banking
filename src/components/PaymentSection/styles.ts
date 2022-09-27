@@ -13,6 +13,13 @@ export const PaymentSectionContainer = styled.section`
     }
   }
 
+  p {
+    color: ${props => props.theme.colors.lavenderSecondary};
+    padding: 1rem 0;
+    line-height: 1.9rem;
+    padding: 1rem 0;
+  }
+
   .c-para {
     text-align: center;
   }
