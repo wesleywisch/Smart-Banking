@@ -6,6 +6,7 @@ import { ChartSection } from './components/ChartSection';
 import { Messaging } from './components/Messaging';
 import { PaymentSection } from './components/PaymentSection';
 import { FAQSection } from './components/FAQSection';
+import { Footer } from './components/Footer';
 
 import { colors } from './styles/colors';
 import { GlobalStyle } from "./styles/GlobalStyles";
@@ -25,6 +26,8 @@ function App() {
         <PaymentSection />
         <FAQSection />
       </OuterLayout>
+
+      <Footer />
     </ThemeProvider>
   );
 }
