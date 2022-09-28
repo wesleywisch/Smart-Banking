@@ -6,6 +6,7 @@ export const CardQuestionContainer = styled.div`
   padding: 1.4rem 1rem;
   border-radius: 2.4rem;
   transition: all .4s ease-in-out;
+  box-shadow: 0px 25px 50px rgba(22, 25, 79, 0.05);
 
   h4 {
     color: #16194F;
