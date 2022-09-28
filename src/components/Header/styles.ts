@@ -4,7 +4,7 @@ import bg from '../../assets/bg.svg';
 
 export const HeaderContainer = styled.header`
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(${bg});
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,12 +13,28 @@ export const HeaderContainer = styled.header`
 
 export const HeaderContent = styled.div`
   padding: 0 18rem;
+
+  @media screen and (max-width: 1347px) {
+    padding: 5rem 14rem;
+  }
+
+  @media screen and (max-width: 1186px) {
+    padding: 5rem 8rem;
+  }
+
+  @media screen and (max-width: 990px) {
+    padding: 5rem 4rem;
+  }
 `;
 
 export const HeaderSection = styled.section`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3rem;
+
+  @media screen and (max-width: 700px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const LeftContent = styled.div`
@@ -31,6 +47,10 @@ export const LeftContent = styled.div`
       font-size: 4rem;
       font-weight: 600;
       color: ${props => props.theme.colors.white};
+
+      @media screen and (max-width: 700px) {
+        font-size: 3rem;
+      }
     }
 
     p.subtitle {

@@ -30,4 +30,8 @@ export const CardCon = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
   padding-top: 7.5rem;
+
+  @media screen and (max-width: 689px) {
+    grid-template-columns: 1fr;
+  }
 `;

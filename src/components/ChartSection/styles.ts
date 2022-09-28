@@ -6,6 +6,10 @@ export const ChartSectionContainer = styled.section`
   .chart-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (max-width: 1347px) {
+      grid-template-columns: 1fr;
+    }
   }
 `;
 
@@ -24,6 +28,10 @@ export const ChartLeft = styled.div`
       padding-bottom: 1.3rem;
       justify-content: space-between;
     }
+  }
+
+  @media screen and (max-width: 1347px) {
+    width: 100%;
   }
 `;
 

@@ -54,5 +54,9 @@ export const MessagingContainer = styled.section`
         z-index: -1;
       }
     }
+
+    @media screen and (max-width: 1347px) {
+      grid-template-columns: 1fr;
+    }
   }
 `;

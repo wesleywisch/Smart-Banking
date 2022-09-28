@@ -7,6 +7,10 @@ export const CardSectionContainer = styled.section`
 export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+  @media screen and (max-width: 845px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const CardLeft = styled.div`
